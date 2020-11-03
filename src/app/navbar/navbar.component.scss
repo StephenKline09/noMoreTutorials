@@ -1,9 +1,55 @@
 .navbar {
-  height: 80px;
+  height: 90px;
   width: 100%;
   background-color: green;
   padding-top: 10px;
   border-style: solid;
   border-color: black;
   border-width: 4px;
+}
+
+//ul {}
+
+.col-xs-4 {
+  font-size: 20px;
+  background-color: rgb(228, 228, 97);
+  color: purple;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col-xs-4.form-control {
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.navbar-brand {
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  padding: 15px;
+  width: 120px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.navbar-header {
+  color: black;
+  background-color: rgb(214, 94, 214);
+  padding-right: 30px;
+  border-color: black;
+  border-style: solid;
+  height: 70px;
+}
+
+p {
+  color: black;
+  padding-top: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
 }
