@@ -14,4 +14,8 @@ export class NavbarComponent implements OnInit {
   generateQuote() {
 
   }
+
+  generateImage() {
+    
+  }
 }
