@@ -1,7 +1,13 @@
 .fluid-container {
-  background: rgb(140, 140, 240);
+  background: linear-gradient(to right, rgb(140, 67, 236), rgb(100, 216, 231));
   padding-bottom: 0%;
   height: 40px;
+}
+
+.header-text {
+  color: white;
+  font-size: 20px;
+  margin-top: -10px;
 }
 
 .top-container {

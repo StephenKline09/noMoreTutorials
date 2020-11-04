@@ -15,15 +15,19 @@
   position: absolute;
   top: 160px;
   left: 50px;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
   color: white;
+  text-shadow: -4px 1px rgb(158, 158, 158, 0.7);
+
 }
 
 .generic-inspirational-quote {
   position: absolute;
-  bottom: 50px;
-  right: 100px;
+  bottom: -30px;
+  right: 10px;
   color: white;
-  font-size: 20px;
+  font-size: 36px;
+  height: 100px;
+  width: 1000px;
 }

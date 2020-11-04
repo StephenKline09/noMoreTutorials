@@ -1,22 +1,23 @@
 .navbar {
   height: 90px;
   width: 100%;
-  background-color: green;
+  background: linear-gradient(to right,rgb(85, 160, 247),yellow,red);
   padding-top: 10px;
   border-style: solid;
   border-color: black;
-  border-width: 4px;
+  border-width: 2px;
 }
 
-// .nav-item {
-//   color: blue;
-// }
-
-//ul {}
+.form-inline {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 7px;
+}
 
 .col-xs-4 {
   font-size: 20px;
-  background-color: rgb(228, 228, 97);
+  background-color: rgb(204, 202, 202);
   color: purple;
   padding-left: 20px;
   padding-right: 20px;
@@ -32,7 +33,9 @@
   text-align: center;
   border-color: black;
   border-style: solid;
-  padding: 15px;
+  border-width: 5px;
+  border-radius: 5px;
+  padding: 5px;
   width: 120px;
   font-size: 30px;
   font-weight: bold;
