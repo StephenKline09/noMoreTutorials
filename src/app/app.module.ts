@@ -11,6 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TestPageComponent } from './test-page/test-page.component';
 import { WinterPageComponent } from './winter-page/winter-page.component';
 import { SpringPageComponent } from './spring-page/spring-page.component';
+import { FallPageComponent } from './fall-page/fall-page.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SpringPageComponent } from './spring-page/spring-page.component';
     HomeComponent,
     TestPageComponent,
     WinterPageComponent,
-    SpringPageComponent
+    SpringPageComponent,
+    FallPageComponent
   ],
   imports: [
     BrowserModule,
