@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './components/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { TestPageComponent } from './test-page/test-page.component';
-import { WinterPageComponent } from './winter-page/winter-page.component';
-import { SpringPageComponent } from './spring-page/spring-page.component';
-import { FallPageComponent } from './fall-page/fall-page.component';
+import { TestPageComponent } from './components/test-page/test-page.component';
+import { WinterPageComponent } from './components/winter-page/winter-page.component';
+import { SpringPageComponent } from './components/spring-page/spring-page.component';
+import { FallPageComponent } from './components/fall-page/fall-page.component';
 
 @NgModule({
   declarations: [

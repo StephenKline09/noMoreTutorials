@@ -1,8 +1,8 @@
-import { FallPageComponent } from './fall-page/fall-page.component';
-import { SpringPageComponent } from './spring-page/spring-page.component';
-import { WinterPageComponent } from './winter-page/winter-page.component';
-import { TestPageComponent } from './test-page/test-page.component';
-import { HomeComponent } from './home/home.component';
+import { FallPageComponent } from './components/fall-page/fall-page.component';
+import { SpringPageComponent } from './components/spring-page/spring-page.component';
+import { WinterPageComponent } from './components/winter-page/winter-page.component';
+import { TestPageComponent } from './components/test-page/test-page.component';
+import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
