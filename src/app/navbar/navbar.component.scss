@@ -8,6 +8,17 @@
   border-width: 2px;
 }
 
+.col-xs-4 {
+  font-size: 20px;
+  background-color: rgb(204, 202, 202);
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+}
+
 // .nav-link::after {
 //   content: ' |';
 // }
@@ -21,17 +32,6 @@
   border-color: black;
   border-style: solid;
   border-radius: 7px;
-}
-
-.col-xs-4 {
-  font-size: 20px;
-  background-color: rgb(204, 202, 202);
-  padding-left: 20px;
-  padding-right: 20px;
-  color: black;
-  border-style: solid;
-  border-radius: 2px;
-  border-color: black;
 }
 
 .col-xs-4.form-control {
@@ -51,7 +51,6 @@
   font-size: 30px;
   font-weight: bold;
 }
-
 
 .navbar-header {
   color: black;
