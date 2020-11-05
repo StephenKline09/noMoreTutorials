@@ -3,13 +3,10 @@
 }
 
 .footer {
+  position: relative;
   height: 100px;
   background-color: orange;
   color: red;
-}
-
-.bottom  {
-  color: purple;
 }
 
 .pb-0 {
@@ -17,9 +14,4 @@
   font-weight: bold;
   margin: 0px;
 }
-
-// .col-12 {
-//   height: 50px;
-//   padding:0px;
-// }
 

@@ -8,6 +8,14 @@
   border-width: 2px;
 }
 
+// .nav-link::after {
+//   content: ' |';
+// }
+
+// .nav-link::before {
+//   content: '|  '
+// }
+
 .form-inline {
   border-width: 2px;
   border-color: black;
@@ -18,9 +26,12 @@
 .col-xs-4 {
   font-size: 20px;
   background-color: rgb(204, 202, 202);
-  color: purple;
   padding-left: 20px;
   padding-right: 20px;
+  color: black;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
 }
 
 .col-xs-4.form-control {
@@ -36,7 +47,7 @@
   border-width: 5px;
   border-radius: 5px;
   padding: 5px;
-  width: 120px;
+  width: 160px;
   font-size: 30px;
   font-weight: bold;
 }

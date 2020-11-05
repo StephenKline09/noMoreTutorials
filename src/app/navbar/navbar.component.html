@@ -1,9 +1,12 @@
 <nav class="navbar navbar-expand navbar-dark">
-  <a href="#" class="col-xs-4 navbar-brand">Logo</a>
+  <a routerLink="/app-home" routerLinkActive="active" class="col-xs-4 navbar-brand">Home</a>
     <div class="container">
       <ul class="col-xs-4 navbar-nav mx-auto">
-        <li class="nav-item"><a href="#" class ="nav-link" (click)="generateImage();">Generate Image</a></li>
-        <li class="nav-item"><a href="#" class ="nav-link" (click)="generateQuote();">Generate Quote</a></li>
+        <li class="nav-item"><a routerLink="/app-test-page" routerLinkActive="active" class ="nav-link" (click)="generateImage();">Deep Woods</a></li>
+        <ul></ul>
+        <li class="nav-item"><a routerLink="/app-winter-page" routerLinkActive="active" class ="nav-link" (click)="generateImage();">Winter</a></li>
+        <ul></ul>
+        <li class="nav-item"><a routerLink="/app-spring-page" routerLinkActive="active" class ="nav-link" (click)="generateImage();">Spring</a></li>
       </ul>
       <form class="form-inline">
         <input type="text" class="col-xs-4 form-control" placeholder="Maybe Search Function?">
